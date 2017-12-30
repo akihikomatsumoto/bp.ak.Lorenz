@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 392.0, 108.0, 271.0, 191.0 ],
+		"rect" : [ 392.0, 108.0, 773.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -56,7 +56,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u651000700"
+					"varname" : "u207003466"
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 106.88179, 174.0, 68.780663, 17.0 ],
 					"style" : "",
-					"text" : "Y (-5V / 5V)",
+					"text" : "Y (0V / 5V)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -178,7 +178,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 210.39032, 174.0, 62.390339, 17.0 ],
 					"style" : "",
-					"text" : "Z (-5V / 5V)",
+					"text" : "Z (0V / 5V)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -196,7 +196,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 174.0, 68.780663, 17.0 ],
 					"style" : "",
-					"text" : "X (-5V / 5V)",
+					"text" : "X (0V / 5V)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -497,9 +497,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 799.5, 824.455078, 94.0, 22.0 ],
+					"patching_rect" : [ 799.5, 824.455078, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "scale~ -1 1 -5 5"
+					"text" : "scale~ -1 1 0 5"
 				}
 
 			}
@@ -512,9 +512,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 668.5, 824.455078, 94.0, 22.0 ],
+					"patching_rect" : [ 668.5, 824.455078, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "scale~ -1 1 -5 5"
+					"text" : "scale~ -1 1 0 5"
 				}
 
 			}
@@ -527,9 +527,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 557.75, 824.455078, 94.0, 22.0 ],
+					"patching_rect" : [ 557.75, 824.455078, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "scale~ -1 1 -5 5"
+					"text" : "scale~ -1 1 0 5"
 				}
 
 			}
@@ -2642,11 +2642,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-133" : [ "RotationY", "RotationY", 0 ],
-			"obj-110" : [ "Amt[1]", "CV Amt", 0 ],
-			"obj-132" : [ "RotationZ", "RotationZ", 0 ],
 			"obj-134" : [ "RotationX", "RotationX", 0 ],
-			"obj-95" : [ "Frequency[1]", "Freq", 0 ]
+			"obj-133" : [ "RotationY", "RotationY", 0 ],
+			"obj-95" : [ "Frequency[1]", "Freq", 0 ],
+			"obj-110" : [ "Amt[1]", "CV Amt", 0 ],
+			"obj-132" : [ "RotationZ", "RotationZ", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
